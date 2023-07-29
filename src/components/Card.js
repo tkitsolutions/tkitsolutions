@@ -1,8 +1,13 @@
 import React from "react";
 
-const Card = ({title}) => {
+const Card = ({title,link}) => {
+  const handleClick=()=>{
+    if(link){
+    window.open(link,"_blank").focus();
+    }
+  }
   return (
-    <div className="card">
+    <div className="card" onClick={handleClick}>
       <img src={require('../assets/images/card.png')} alt="" />
       <div>
       <h2>{title}</h2>

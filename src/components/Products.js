@@ -13,10 +13,10 @@ const Products = () => {
       industry. standard dummy text ever since the 1500s, when an unknown.
     </p>
     <div className="cards">
-    <Card title={"TKIT Todo"}/>
-      <Card title={"TKIT Chat"}/>
-      <Card title={"TKIT Resume Builder"}/>
-      <Card title={"TKIT Restaurant"}/>  
+    <Card title={"TKIT Todo"} link={"https://tkitresumebuilder.netlify.app/"}/>
+      <Card title={"TKIT Chat"}  link={"https://tkitchat.netlify.app/"}/>
+      <Card title={"TKIT Resume Builder"}  link={"https://tkitresumebuilder.netlify.app/"}/>
+      <Card title={"TKIT Restaurant"}  link={"https://tkitchat.netlify.app/"}/>  
     </div>
     <button> View All <BsArrowRight/></button>
   </div>
