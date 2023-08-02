@@ -58,8 +58,9 @@
     background-image: url('./assets/images/bgheader.png');
     background-position: center;
     background-size: cover;
+   
 .header{
-
+     overflow:hidden;
     margin: 0 auto;
     max-width: 1440px;
     padding: 0 100px;
@@ -195,6 +196,7 @@
 }
 
 .aboutUs{
+    overflow:hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,6 +299,7 @@
 }
 
 .section{
+    overflow:hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,6 +396,7 @@
 }
 
 .getintouchContainer{
+    overflow:hidden;
     background-image: url(../src/assets/images/bg2.png);
     background-position: center;
     background-size: cover;
@@ -447,7 +451,7 @@
 }
 
 .footer{
-
+overflow:hidden;
     display: flex;
     flex-direction: column;
     gap: 51px;
