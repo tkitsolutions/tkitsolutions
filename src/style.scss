@@ -80,7 +80,6 @@
 
 }
 
-<<<<<<< HEAD
 @keyframes scroll2 {
   0% {
     transform: translateX(0);
@@ -155,27 +154,6 @@
   25% {
 
       transform: translateX(calc(-390px * 1));
-=======
-.headerContainer{
-    background-image: url('./assets/images/bgheader.png');
-    background-position: center;
-    background-size: cover;
-   
-.header{
-     overflow:hidden;
-    margin: 0 auto;
-    max-width: 1440px;
-    padding: 0 100px;
-    .navbar{
-        
-        max-width: 1240px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
-        padding-top: 34px;
-        height: 62px;
->>>>>>> 3aefc6b0a088866755647c5205df14b7e6536464
     
   }
 
@@ -228,7 +206,6 @@
   user-select: none;
 }
 
-<<<<<<< HEAD
 .header {
   background-image: url("./assets/images/bgheader.png");
   background-position: center;
@@ -238,116 +215,6 @@
   min-height: 600px;
   // border: 1px solid red;
   .navbar {
-=======
-.aboutUs{
-    overflow:hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1032px;
-    margin: 0 auto;
-    margin-top: 120px;
-    // border:1px solid black;
-
-    h1{
-        font-family: "sora";
-        font-size: 42px;
-        span{
-            color: var(--color2);
-        }
-    }
-
-    &>p{
-        margin: 24px 200px 56px 200px;
-        color: var(--color4);
-        text-align: center;
-    }
-
-    .aboutUsContent{
-        display: flex;
-        justify-content: center;
-        margin-top: 64px;
-        gap: 82px;
-        .workAnimation{
-            display: grid;
-            grid-template-columns: auto auto;
-            gap: 20px;
-            flex: 1 ;
-            div{
-                width: 200px;
-                height: 200px;
-                color: var(--color2);
-                border:1px solid var(--color2);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-family: 'sora';
-                font-size: 24px;
-                font-weight: 400;
-                background-color: transparent;
-                animation: workFlow 4s infinite;
-                &:nth-child(1){
-                animation-delay: 0s;            
-                }
-                &:nth-child(2){
-                animation-delay: 1s;            
-                }
-                &:nth-child(3){
-                animation-delay: 3s;            
-          
-                }
-                &:nth-child(4){
-                    animation-delay: 2s;            
-      
-                }
-                
-
-            }
-        }
-
-        .description{
-            flex: 1 ;
-            display: flex;
-            flex-direction: column;
-            // justify-content: flex-start;
-            align-items: flex-start;
-            gap: 30px;
-        //    text-align: justify;
-        h1{
-            font-size: 42px;
-            line-height: 120%;
-        }
-
-        p{
-            color: var(--color4);
-        }
-
-        button{
-            color: white;
-            padding: 16px 32px;
-            background-color: var(--color5);
-            border:none;
-            border-radius: 5px;
-            &:hover{
-                cursor: pointer;
-                color: var(--color5);
-                background-color: transparent;
-                border: 1px solid var(--color5);
-            }
-        }
-        }
-
-    }
-
- 
-}
-
-.section{
-    overflow:hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
->>>>>>> 3aefc6b0a088866755647c5205df14b7e6536464
     max-width: 1240px;
     display: flex;
     align-items: center;
@@ -563,7 +430,6 @@
   }
 }
 
-<<<<<<< HEAD
 .slider {
   // border: 2px red solid;
   height: 347px;
@@ -571,16 +437,6 @@
   position: relative;
   margin: auto auto;
   width: calc(100vw/4 * 4);
-=======
-.getintouchContainer{
-    overflow:hidden;
-    background-image: url(../src/assets/images/bg2.png);
-    background-position: center;
-    background-size: cover;
-.getintouch{
-    
-    // padding: 0 100px;
->>>>>>> 3aefc6b0a088866755647c5205df14b7e6536464
 
   @include mobile(){
     margin-top: 56px;
@@ -1167,7 +1023,6 @@
   }
 }
 
-<<<<<<< HEAD
 .footerContainer{
   display: flex;
   flex-direction: column;
@@ -1182,10 +1037,6 @@
   .footerContent {
     max-width: 1240px;
     margin: 0 100px;
-=======
-.footer{
-overflow:hidden;
->>>>>>> 3aefc6b0a088866755647c5205df14b7e6536464
     display: flex;
     align-items: center;
     gap: 192px;
@@ -1196,7 +1047,6 @@ overflow:hidden;
     gap: 64px;
     margin: 0 16px;
    }
-<<<<<<< HEAD
     & > div {
       flex: 1;
     }
@@ -1266,6 +1116,4 @@ overflow:hidden;
   background-image: linear-gradient(to bottom left, #6528f7, #a076f9);
   color: white;
 }
-=======
->>>>>>> 3aefc6b0a088866755647c5205df14b7e6536464
 }
