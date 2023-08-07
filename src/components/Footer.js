@@ -7,6 +7,7 @@ import{HiMail} from 'react-icons/hi'
 import{MdLocationOn} from 'react-icons/md'
 const Footer = () => {
   return (
+    <div className="footerContainer">
     <div className="footer">
       <div className="footerContent">
         <div className="about">
@@ -41,9 +42,10 @@ const Footer = () => {
             </div>
         </div>
       </div>
-      <div className="footerbar">
+    </div>
+    <div className="footerbar">
         &#169; 2023 - TKIT SOL | All rights reserved
-      </div>
+    </div>
     </div>
   );
 };

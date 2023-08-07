@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
-import HeroImg from "../assets/images/heroImg.svg"
+import HeroImg from "../assets/images/heroImg.svg";
 
 const Hero = () => {
   return (
@@ -13,15 +13,13 @@ const Hero = () => {
         </h1>
         <p>
           We transform abstract ideas and visions into tangible and functional
-          digital products
+          digital products We transform abstract ideas and visions into
+          tangible.
         </p>
         <div className="heroButtons">
           <button className="primary">Contact Us</button>
-          <button className="secondary">Products</button>
+          <button className="secondary">Our Products</button>
         </div>
-      </div>
-      <div className="heroImg">
-        <img src={HeroImg}/>
       </div>
     </div>
   );
